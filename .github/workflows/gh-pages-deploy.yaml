@@ -83,7 +83,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: doc/docusaurus/build
+          path: doc/docusaurus/docs/build
 
       - name: Deploy to GitHub Pages
         id: deployment
